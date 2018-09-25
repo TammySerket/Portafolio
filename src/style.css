@@ -1,0 +1,46 @@
+body{
+font-family: 'Spirax', cursive;
+box-sizing: content-box;
+display: block;
+background-color: #FDE69F;
+}
+header{
+    display: block;
+    padding: 60px;
+    background: url('https://lh5.googleusercontent.com/p/AF1QipN5YIGW-ZCgWzf3T3Ut-qTbPBQsgovSwkra7TQL=w208-h168-p-k-no');
+    background-size: cover;
+}
+.nav-link{
+width: 50px;
+}
+#contacto{
+    font-family: 'Fredericka the Great', cursive;
+    box-sizing: content-box;
+    position: absolute;
+    left: 70%;
+}
+section{
+    padding: 30px;
+}
+img{
+    -webkit-border-radius: 5px 10px;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 30PX;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-family: 'Fredericka the Great', cursive;
+    text-shadow: 1px 2px black;
+}
+@media screen and (min-width: 670px)
+{
+    opacity: 1;
+}
