@@ -10,6 +10,10 @@ header{
     background: url('https://lh5.googleusercontent.com/p/AF1QipN5YIGW-ZCgWzf3T3Ut-qTbPBQsgovSwkra7TQL=w208-h168-p-k-no');
     background-size: cover;
 }
+
+sup{
+    font-size: 30%;
+}
 .nav-link{
 width: 50px;
 }
