@@ -2,49 +2,70 @@ body{
 font-family: 'Spirax', cursive;
 box-sizing: content-box;
 display: block;
-background-color: #FDE69F;
+background-color: #ffeebb;
+padding: 2%;
 }
 header{
     display: block;
     padding: 60px;
     background: url('https://lh5.googleusercontent.com/p/AF1QipN5YIGW-ZCgWzf3T3Ut-qTbPBQsgovSwkra7TQL=w208-h168-p-k-no');
     background-size: cover;
+    text-shadow: 1px 2px white;
+    size: 100%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: black;
 }
 
 sup{
     font-size: 30%;
 }
+
 .nav-link{
 width: 50px;
+font-size: 150%;
+color: black;
 }
 #contacto{
     font-family: 'Fredericka the Great', cursive;
-    box-sizing: content-box;
-    position: absolute;
-    left: 70%;
+    text-align: right;
+padding: 3%;
 }
+
 section{
-    padding: 30px;
+    padding: 2%;
+
 }
 img{
     -webkit-border-radius: 5px 10px;
+    padding: 2%;
+    position: relative;
+    display: block;
+    box-sizing: content-box;
 }
 .contenedor{
     position: relative;
-    display: inline-block;
-    text-align: center;
-    padding: 30PX;
+    display: block;
+    box-sizing: content-box;
+    padding: 5%;
 }
 .centrado{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: aliceblue;
     font-family: 'Fredericka the Great', cursive;
-    text-shadow: 1px 2px black;
+    text-shadow: 1px 2px white;
+    font-size: relative;
 }
 @media screen and (min-width: 670px)
 {
     opacity: 1;
 }
+
