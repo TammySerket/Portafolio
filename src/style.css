@@ -15,6 +15,10 @@ header{
     text-align: center;
 }
 
+p {
+    font-family: 'Franklin Gothic Medium';
+}
+
 h1 {
     text-align: center;
 }
@@ -35,16 +39,14 @@ color: black;
 #contacto{
     font-family: 'Fredericka the Great', cursive;
     text-align: right;
-padding: 3%;
+    padding: 3%;
 }
 
 section{
-    padding: 2%;
-
+margin: 5%;
 }
 img{
     -webkit-border-radius: 5px 10px;
-    padding: 2%;
     position: relative;
     display: block;
     box-sizing: content-box;
