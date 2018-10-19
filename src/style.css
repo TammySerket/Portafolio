@@ -3,28 +3,37 @@ font-family: 'Spirax', cursive;
 box-sizing: content-box;
 display: block;
 background-color: #ffeebb;
-padding: 2%;
 }
 header{
     display: block;
-    padding: 60px;
-    background: url('https://lh5.googleusercontent.com/p/AF1QipN5YIGW-ZCgWzf3T3Ut-qTbPBQsgovSwkra7TQL=w208-h168-p-k-no');
     background-size: cover;
     text-shadow: 1px 2px white;
-    size: 100%;
-    text-align: center;
+}
+.parallax{
+background-size: cover;  
 }
 
 p {
     font-family: 'Franklin Gothic Medium';
 }
 
-h1 {
-    text-align: center;
+a {
+    color:green;
 }
 
-h3 {
+span {
+    text-shadow: black 2px 2px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: white 2px 2px;
+}
+
+h2 {
     color: black;
+    text-shadow: white 2px 2px;
+
 }
 
 sup{
@@ -36,11 +45,6 @@ width: 50px;
 font-size: 150%;
 color: black;
 }
-#contacto{
-    font-family: 'Fredericka the Great', cursive;
-    text-align: right;
-    padding: 3%;
-}
 
 img{
     -webkit-border-radius: 5px 10px;
@@ -48,21 +52,7 @@ img{
     display: block;
     box-sizing: content-box;
 }
-.contenedor{
-    position: relative;
-    display: block;
-    box-sizing: content-box;
-    padding: 5%;
-}
-.centrado{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Fredericka the Great', cursive;
-    text-shadow: 1px 2px white;
-    font-size: relative;
-}
+
 @media screen and (min-width: 670px)
 {
     opacity: 1;
