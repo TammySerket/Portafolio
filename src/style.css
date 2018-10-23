@@ -15,6 +15,7 @@ background-size: cover;
 
 p {
     font-family: 'Franklin Gothic Medium';
+    font-size: 150%;
 }
 
 a {
@@ -38,6 +39,10 @@ h2 {
 
 sup{
     font-size: 30%;
+}
+
+ul {
+    text-decoration-line: underline;
 }
 
 .nav-link{
